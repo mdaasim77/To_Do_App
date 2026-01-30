@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Ui() {
+export default function Navbar() {
   return (
     <div>
-        UI
+      Navbar
     </div>
   )
 }
