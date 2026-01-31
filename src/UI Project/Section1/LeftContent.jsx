@@ -8,13 +8,13 @@ export default function LeftContent() {
           Monduen <br /> <span className="text-gray-400">dolorsit</span> <br />
           Loreipsum
         </h3>
-        <p className="text-lg font-medium text-gray-600 ">
+      </div>
+      <div>
+        <p className="text-lg font-medium text-gray-600 mb-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto
           deserunt d esse tempore omnis illum quo harum nam, doloremque
           incidunt.
         </p>
-      </div>
-      <div>
         <img src="src/images/icons8-up-right-70.png" alt="icon" />
       </div>
     </div>
