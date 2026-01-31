@@ -29,7 +29,7 @@ export default function App() {
   ];
   return (
     <div>
-      <Section1 />
+      <Section1 users={users} />
       <Section2 />
       {/* <Parent /> */}
     </div>
