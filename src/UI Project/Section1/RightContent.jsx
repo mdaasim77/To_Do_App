@@ -5,10 +5,9 @@ export default function RightContent(props) {
   console.log(props.users)
   return (
     <div className="h-full w-2/3 p-6 flex gap-10 flex-nowrap overflow-x-auto">
-      <RightCard />
-      <RightCard/>
-      <RightCard/>
-      <RightCard/>
+      {props.users.map((elem)=>{
+        return <RightCard img={elem.img} users={props.users}/>
+      })}      
     </div>
   );
 }
