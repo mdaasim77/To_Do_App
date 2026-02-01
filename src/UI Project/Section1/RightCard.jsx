@@ -7,7 +7,7 @@ export default function RightCard(props) {
   console.log(props.para);
   // console.log(props.id);
   return (
-    <div className="h-full w-72 border relative rounded-3xl overflow-hidden shrink-0">
+    <div  className="h-full w-72 border relative rounded-3xl overflow-hidden shrink-0">
       <img
         className="h-full w-full object-cover"
         // src={img}
